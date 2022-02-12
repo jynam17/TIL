@@ -1,5 +1,5 @@
-# TIL
-> 📓 Today I Learned
+# 📓 TIL
+>  Today I Learned
 
 
 매일 공부한 것, 배운 것, 생각한 것을 [TIL 폴더](https://github.com/NamJwong/TIL/tree/main/TIL)에 기록합니다.
