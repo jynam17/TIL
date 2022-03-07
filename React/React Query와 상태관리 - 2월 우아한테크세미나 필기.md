@@ -94,3 +94,33 @@ Redux, MobX, saga 등을 도입할 당시에는 적정 기술이 없었다.
 <img width="875" alt="image" src="https://user-images.githubusercontent.com/73823388/156985988-9eb87ed6-349d-41cf-8360-b0913c602bb3.png">
 <img width="878" alt="image" src="https://user-images.githubusercontent.com/73823388/156986166-f0f1aa0f-4a94-458d-a7c7-0bbaaf910b8c.png">
 
+### 세 가지 core 컨셉 살펴보기
+<img width="889" alt="image" src="https://user-images.githubusercontent.com/73823388/157015698-e582aa99-33ae-4c09-bbba-e8d82602be63.png">
+
+- Queries는 데이터 Fetching용이다. CRUD 중 Reading에만 사용한다.
+
+### Query Key
+- key 값을 가지고 데이터를 관리한다.
+- 앞으로 string 형태의 key는 못쓰게 바뀔 것이라고 한다.
+<img width="881" alt="image" src="https://user-images.githubusercontent.com/73823388/157016766-f2e117f3-5418-4ea9-939c-36baf9788861.png">
+
+> 🤓주영: array가 key가 된다는 것 자체가 이해가 잘 안된다. 그 array의 주소가 key가 된다는 것인지 아니면 key를 설정할 때의 array 상태 값 그대로가 key가 된다는 것인지..
+
+### queries 파일 분리도 추천!
+<img width="877" alt="image" src="https://user-images.githubusercontent.com/73823388/157023321-3bc2e9f0-ff95-45fc-8302-03b597be1ebe.png">
+
+- useQuery를 컴포넌트에 직접 쓰면 관리가 어려울 수 있다.
+
+### 그럼 query가 여러 개일 땐
+<img width="783" alt="image" src="https://user-images.githubusercontent.com/73823388/157023652-10f6892a-e63b-4557-9978-97d379f01028.png">
+
+### 그럼 질문!
+
+<img width="886" alt="image" src="https://user-images.githubusercontent.com/73823388/157023965-da3f9af5-1329-4406-a127-1e647de5daa3.png">
+
+케바케다.
+
+일단 1번을 쓰고 1번이 불가능한 경우에 2번을 쓴다.
+
+### 그럼 질문! 2
+<img width="726" alt="image" src="https://user-images.githubusercontent.com/73823388/157029154-765a9ec4-83e9-4a1f-90c7-0ee45f191a8d.png">
