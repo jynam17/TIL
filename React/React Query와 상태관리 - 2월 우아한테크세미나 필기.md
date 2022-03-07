@@ -1,4 +1,5 @@
 
+
 # (작성 중) React Query와 상태관리 :: 2월 우아한테크세미나
 
 해당 세미나는 우아한형제들 기술 블로그에 배민근님이 올리신 [Store에서 비동기 통신 분리하기 (feat. React Query)](https://techblog.woowahan.com/6339/)라는 글이 유명해져 진행하게 되었다고 한다.
@@ -82,3 +83,14 @@ Redux, MobX, saga 등을 도입할 당시에는 적정 기술이 없었다.
 <img width="915" alt="image" src="https://user-images.githubusercontent.com/73823388/156895874-37202f48-09d8-437a-8746-f4b5f562c210.png">
 
 - 데이터를 global state를 터치하지 않고 fetch/cache/update 해준다.
+- 선언적이다.
+- 백그라운드에서 자동으로 해주는 것이 많다.
+- Hook과 비슷한 API를 제공해주기 때문에 친숙하다.
+- 심플하다.
+- 강력하다.
+- 설정 가능한 옵션이 많다.
+
+### Overview
+<img width="875" alt="image" src="https://user-images.githubusercontent.com/73823388/156985988-9eb87ed6-349d-41cf-8360-b0913c602bb3.png">
+<img width="878" alt="image" src="https://user-images.githubusercontent.com/73823388/156986166-f0f1aa0f-4a94-458d-a7c7-0bbaaf910b8c.png">
+
