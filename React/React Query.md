@@ -23,6 +23,10 @@ function Todos({ todoId }) {
  }
  ```
 
+# useInfiniteQuery
+[잘 정리된 자료](https://jforj.tistory.com/246)
+
+
 
 # 참고 자료
 https://blog.rhostem.com/posts/2021-02-01T00:00:00.000Z
