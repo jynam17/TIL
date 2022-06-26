@@ -59,8 +59,8 @@ printf("%p\n", intArr);
 ```
 출력
 ```
-0x7ffdbb25288c
-0x7ffdbb252888
+0x7ffdbb25288c //  &p[1] => int는 4바이트이므로 0x7ffdbb252888의 4바이트 뒤가 출력된 것이다.
+0x7ffdbb252888 
 
 0x42aeb1
 0x42aeb1
