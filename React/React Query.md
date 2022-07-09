@@ -23,6 +23,15 @@ function Todos({ todoId }) {
    const result = useQuery(['todos', todoId], () => fetchTodoById(todoId))
  }
  ```
+ 
+# useMutation
+## Option
+useMutation의 옵션은 두 가지 방법으로 설정할 수 있다. <br />
+첫 번째는 선언 시 두 번째 인자에 설정하는 것, 두 번째는 mutate 함수 사용 시 두 번째 인자에 설정하는 것이다.
+
+그런데 만약 둘 다 설정되어 있다면 어떻게 될까?
+
+이는 onSuccess로 실험해보니 선언부에 있는 것만 실행이 됐다.
 
 # useInfiniteQuery
 [잘 정리된 자료](https://jforj.tistory.com/246)
