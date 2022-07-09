@@ -33,6 +33,8 @@ useMutation의 옵션은 두 가지 방법으로 설정할 수 있다. <br />
 
 이는 onSuccess로 실험해보니 선언부에 있는 것만 실행이 됐다.
 
+이렇게 둘 중 하나만 실행돼서 그러는 것인지 UseMutationOptions 타입 변수를 선언부의 두 번째 인자에 쓰기 위해서는 queryFn의 인자가 비어져 있어야 한다.
+
 # useInfiniteQuery
 [잘 정리된 자료](https://jforj.tistory.com/246)
 
